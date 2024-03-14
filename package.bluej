@@ -1,19 +1,22 @@
 #BlueJ package file
+dependency1.from=WordGuessingGame
+dependency1.to=InputReader
+dependency1.type=UsesDependency
 editor.fx.0.height=728
 editor.fx.0.width=800
-editor.fx.0.x=708
-editor.fx.0.y=331
+editor.fx.0.x=549
+editor.fx.0.y=63
 objectbench.height=100
 objectbench.width=461
 package.divider.horizontal=0.6
 package.divider.vertical=0.8003731343283582
 package.editor.height=422
 package.editor.width=657
-package.editor.x=1027
+package.editor.x=640
 package.editor.y=132
 package.frame.height=600
 package.frame.width=800
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=3
 package.showExtends=true
 package.showUses=true
