@@ -12,16 +12,18 @@ public class WordGuessingGame
     private String guessedWord;
     private int numberOfTries;
     private InputReader reader;
+    private WordGenerator word;
     /**
      * Construtor para objetos da classe WordGuessingGame
      */
     public WordGuessingGame()
     {
         // inicializa variáveis de instância
-        hiddenWord = "abc";
+        hiddenWord = word.generateWord();
         guessedWord = "___";
         numberOfTries = 0;
         reader = new InputReader();
+        word = new WordGenerator();
     }
 
     /**
@@ -79,6 +81,10 @@ public class WordGuessingGame
         guess(I);
     }
     showResult();
-}
+    }
+    public void initialGuessedWord(String word){
+
+        
+    }
     
 }
